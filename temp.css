@@ -1,0 +1,45 @@
+body{
+   background-color: rgb(205, 204, 204);
+}
+form{
+    background-color: beige;
+    max-width: 350px;
+    height: 350px;
+    margin: auto;
+    padding:25px ;
+    border-radius: 10px ;
+    box-shadow: 15px 10px 25px rgb(83, 83, 83);
+    text-align: center;
+}
+#h1{
+  color: rgb(27, 140, 210);
+}
+#num{
+    margin-bottom:15px ;
+    backdrop-filter:blur(5px);
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 5px;
+    border-color: rgb(140, 142, 143);
+    border-color: grey;
+}
+label{
+    margin-bottom: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#submit{
+    margin-top: 20px;
+    font-size: large;
+    padding: 8px 15px;
+    background-color: rgb(194, 43, 43);
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: red;
+
+}
+#p{
+    font-size: 25px;
+    font-weight: 900;
+}
